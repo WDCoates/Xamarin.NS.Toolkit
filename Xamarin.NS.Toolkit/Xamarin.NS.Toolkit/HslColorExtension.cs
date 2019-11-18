@@ -4,6 +4,15 @@ using Xamarin.Forms.Xaml;
 
 namespace Xamarin.NS.Toolkit
 {
+    public static class Toolkit
+    {
+        public static void Init()
+        {
+
+        }
+    }
+
+
     public class HslColorExtension : IMarkupExtension
     {
         public double H { get; set;}
