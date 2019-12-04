@@ -2,7 +2,7 @@
 
 namespace Xamarin.NS.Toolkit
 {
-    class AltLabel : Label
+    public class AltLabel : Label
     {
         public static readonly BindableProperty PointSizeProperty =
             BindableProperty.Create("PointSize", typeof(double), typeof(AltLabel), 8d,
