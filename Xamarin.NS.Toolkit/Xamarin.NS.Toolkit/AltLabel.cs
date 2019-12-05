@@ -14,6 +14,7 @@ namespace Xamarin.NS.Toolkit
         {
             SetLabelFontSize((double) PointSizeProperty.DefaultValue);
         }
+
         public double PointSize
         {
             set => SetValue(PointSizeProperty, value);
